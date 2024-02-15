@@ -15,6 +15,7 @@ const config: Config = {
       },
       colors: {
         'text': '#101828',
+        'green100': '#AFEAE4',
         'primary': '#508FDA',
         'secondary': '#8D99AE',
         'success': '#06D6A0',
@@ -30,12 +31,14 @@ const config: Config = {
       },
       fontFamily: {
         sans: ['sans-serif'],
-        chivo: ['Chivo']
+        chivo: ['Chivo', 'sans-serif'],
+        noto: ['Noto Sans', 'sans-serif']
       },
       fontSize: {
         'body': '14px',
         'body-lg': '16px',
-        'header-menu': '18px',
+        'header-menu': ['16px', '20px'],
+        'top-bar-title': ['14px', '22px'],
       }
     },
   },
